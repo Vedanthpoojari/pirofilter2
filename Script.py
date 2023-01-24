@@ -181,10 +181,6 @@ Message <b>: {}</b>"""
 📆 Release Info : {release_date}
 👥 Cast : <code>{cast}</code>
 
-⚠️  <b>𝙽𝚘𝚝𝚎: This message will be Auto-deleted after 5 minutes to avoid copyright issues.</b> ⚠️
-
-<b>If there is any problem please contact @ContactMCAdmin_Robot</b>
-
 <b>©️ [Mᴏᴠɪᴇs Cᴇɴᴛᴇʀ Oғғɪᴄɪᴀʟ](https://t.me/MoviesCenterOfficial)</b>"""
     
     ALL_FILTERS = """
