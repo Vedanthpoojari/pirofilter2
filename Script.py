@@ -166,7 +166,7 @@ Message <b>: {}</b>"""
     CAPTION = """
 <code>{file_name}</code> 
 
-❤️‍🔥 </i>Join</i> [MoviesCenterOfficial](https://t.me/MoviesCenterOfficial)"""
+</i>Join</i> [MoviesCenterOfficial](https://t.me/MoviesCenterOfficial)"""
 
     IMDB_TEMPLATE_TXT = """
 <b>Hey {message.from_user.mention}</b>
