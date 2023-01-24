@@ -164,7 +164,7 @@ Name <b>: {}</b>
 Message <b>: {}</b>"""
 
     CAPTION = """
-📂 <em>File Name</em>: <code>{file_name}</code> 
+<code>{file_name}</code> 
 
 ❤️‍🔥 </i>Join</i> [MoviesCenterOfficial](https://t.me/MoviesCenterOfficial)"""
 
