@@ -251,13 +251,17 @@ async def start(client, message):
             f_caption=f_caption
     if f_caption is None:
         f_caption = f"{files.file_name}"
-    await message.reply("Media file is missing or invalid.")
-else:
     await client.send_cached_media(
-        chat_id=message.chat.id,
-        media=InputMediaDocument(media=file_id),
-        caption="Here is your file"
-    )
+    chat_id=message.from_user.id,
+    media=media_type(
+        media=file_id,
+        caption=f_caption
+    ),
+    protect_content=True if pre == 'filep' else False,
+    reply_markup=InlineKeyboardMarkup([
+        [InlineKeyboardButton('⚡ Official Channel ⚡', url="https://telegram.me/MoviesCenterOfficial")]
+    ])
+)
                     
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
