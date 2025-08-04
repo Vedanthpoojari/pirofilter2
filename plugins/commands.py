@@ -252,13 +252,10 @@ async def start(client, message):
     if f_caption is None:
         f_caption = f"{files.file_name}"
     await client.send_cached_media(
-    chat_id=message.from_user.id,
-    media=InputMediaDocument(
-        media=file_id,
-        caption="your caption"
-    )
-    )
-    protect_content=True if pre == 'filep' else False,
+        chat_id=message.from_user.id,
+        file_id=file_id,
+        caption=f_caption,
+        protect_content=True if pre == 'filep' else False,
     reply_markup=InlineKeyboardMarkup([
         [InlineKeyboardButton('⚡ Official Channel ⚡', url="https://telegram.me/MoviesCenterOfficial")]
     ])
