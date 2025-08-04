@@ -262,7 +262,6 @@ async def start(client, message):
     reply_markup=InlineKeyboardMarkup([
         [InlineKeyboardButton('⚡ Official Channel ⚡', url="https://telegram.me/MoviesCenterOfficial")]
     ])
-)
                     
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
